@@ -23,9 +23,9 @@ function App() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="navbar-brand">
           <li>
-            <link to={"/restaurants"} className="nav-link">
-              Restaurant Reviews
-            </link>
+          <Link to={"/restaurants"} className="nav-link">
+            Restaurant Reviews
+          </Link>
           </li>
         </div>
         <div className="navbar-nav mr-auto">
